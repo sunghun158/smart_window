@@ -12,16 +12,16 @@
 DHT dht(DHTPIN, DHTTYPE);
 Servo servo;
 WiFiClient client;
-IPAddress server_addr(13,124,166,146);
+IPAddress server_addr(*,*,*,*);
 
-char ssid[] = "arduino";                 
-char pass[] = "Test0101";                
-char auth[] = "7ce8169c6a894c919bd1f2b5f36afe0a";
+char ssid[] = "**";                 
+char pass[] = "**";                
+char auth[] = "**";
 byte mac[6];
 int mvalue=0;
 int flag=0;
-char user[] = "root"; 
-char password[] = ""; 
+char user[] = "**"; 
+char password[] = "**"; 
 char query[] = "SELECT pop,rain,REH,window,hour,temp FROM rss.weather;";
 
 MySQL_Connection conn((Client *)&client);
