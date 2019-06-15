@@ -49,7 +49,7 @@ else:
     RAIN = 0
 
 # DB 파싱 INIT
-conn = pymysql.connect(host='13.124.166.146', user='root', db='rss')
+conn = pymysql.connect(host='*.*.*.*', user='**', db='**')
 curs = conn.cursor()
 
 
