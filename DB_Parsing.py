@@ -11,8 +11,7 @@ RAIN=''
 rain = ''
 TEMP = ''
 
-# 경기도/화성시 RSS
-japi = 'http://www.kma.go.kr/wid/queryDFSRSS.jsp?zone=4159025300'
+japi = 'http://www.kma.go.kr/wid/queryDFSRSS.jsp?zone=****'
 
 response = pars.urlopen(japi)
 weather = BeautifulSoup(response, "html.parser")
